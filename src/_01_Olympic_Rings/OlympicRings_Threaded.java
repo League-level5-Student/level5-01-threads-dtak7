@@ -20,7 +20,7 @@ public class OlympicRings_Threaded {
 			blu.setSpeed(10);
 			for (int i = 0; i < 360; i++) {
 				blu.turn(1);
-				blu.move(10);
+				blu.move(1);
 			}
 			blu.setX(-10);
 		});
@@ -31,7 +31,7 @@ public class OlympicRings_Threaded {
 			blk.setSpeed(10);
 			for (int i = 0; i < 360; i++) {
 				blk.turn(1);
-				blk.move(10);
+				blk.move(1);
 			}
 			blk.setX(-10);
 		});
@@ -41,7 +41,7 @@ public class OlympicRings_Threaded {
 		ylw.setSpeed(10);
 		for (int i = 0; i < 360; i++) {
 			ylw.turn(1);
-			ylw.move(10);
+			ylw.move(1);
 		}
 		ylw.setX(-10);}); 
 		Thread r4 = new Thread(()->{grn.hide();
@@ -50,7 +50,7 @@ public class OlympicRings_Threaded {
 		grn.setSpeed(10);
 		for (int i = 0; i < 360; i++) {
 			grn.turn(1);
-			grn.move(10);
+			grn.move(1);
 		}
 		grn.setX(-10);});
 		Thread r5 = new Thread(()->{red.hide();
@@ -59,7 +59,7 @@ public class OlympicRings_Threaded {
 		red.setSpeed(10);
 		for (int i = 0; i < 360; i++) {
 			red.turn(1);
-			red.move(10);
+			red.move(1);
 		}
 		red.setX(-10);}); 
 		
